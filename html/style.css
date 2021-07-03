@@ -1,0 +1,118 @@
+.name{
+font-size:20px;
+font-style:bold;
+}
+.date{
+font-size:15px;
+font-style:italic;
+color:grey;
+}
+.comment{
+font-size:15px;
+}
+.chatid{
+font-size:15px;
+}
+.chat{
+border:1px solid black;
+border-radius:10px;
+margin:5px;
+padding:5px;
+background-color:#dddddd;;
+transition: background-color 0.5s;
+}
+.chat:hover{
+background-color:#FFFFFF;
+
+}
+#chatform{
+border:1px solid black;
+background-color:Chartreuse;
+margin:5px 10px;
+padding:5px;
+}
+
+#chatval,#chatname{
+font-size:15px;
+border : 1px solid black;
+border-radius:10px;
+padding:5px;
+transition: border 0s;
+
+}
+#chatval{
+width:100%;
+}
+
+#chatname{
+width:100%;
+}
+#chatval:focus, #chatname:focus{
+border:1px solid cyan;
+outline:none;
+transition: border 0.5s;
+}
+#inputfield{
+max-width:70%;
+display:inline-block;
+}
+#send{
+display:inline-block;
+
+font-size:15px;
+border:none;
+padding:10px 10px;
+background-color:#5555FF;
+border-radius:2px;
+}
+.pagediv{
+text-align:center;
+}
+.pagebtn:link, .pagebtn:visited{
+color:black;
+font-size:22px;
+padding:1px 5px;
+text-decoration:none;
+border:2px solid #3333FF;
+background-color:white;
+border-radius:3px;
+transition:background-color 0.3s;
+}
+.pagebtn:hover{
+background-color:#55FFFF;
+color:black;
+text-decoration:none;
+}
+.guest{
+color:grey;
+}
+.user{
+color:black;
+}
+.admin{
+color:yellow;
+}
+a:link, a:visited{
+text-decoration:none;
+}
+#menudiv{
+background-color:cyan;
+padding:15px;
+text-align:right;
+}
+#menudiv > a{
+color:black;
+text-decoration:none;
+font-size:20px;
+padding:15px 10px;
+transition:background-color 0.3s;
+}
+#menudiv > a:hover{
+background-color:white;
+transition: background-color 0.3s;
+}
+#title{
+float:left;
+font-size:20px;
+
+}
